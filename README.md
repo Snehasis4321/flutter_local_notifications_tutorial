@@ -2,12 +2,12 @@
 
 the repository containes the code to show local notification in the flutter app
 
-## 👩‍💻 Topics  -
+## 👨‍💻 Topics  -
 - Simple Notification
 - Periodic Notification
 - Scheduling Notification
-- Cancel specific channel notification
-- Canecl All Notification At Once
+- Cancel pecific channel notification
+- Cancel all notification at once
 
 ## Video Link
 ![LOCAL NOTIFICATIONS (2)](https://github.com/Snehasis4321/flutter_local_notifications_tutorial/assets/96995340/84e99975-726f-4036-9b59-3ae702d59cdf)
