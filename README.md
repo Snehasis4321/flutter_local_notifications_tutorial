@@ -1,16 +1,18 @@
-# flutter_local_notifications_tutorial
+# Local Notification Flutter Tutorial
 
-A new Flutter project.
+the repository containes the code to show local notification in the flutter app
 
-## Getting Started
+## 👩‍💻 Topics  -
+- Simple Notification
+- Periodic Notification
+- Scheduling Notification
+- Cancel specific channel notification
+- Canecl All Notification At Once
 
-This project is a starting point for a Flutter application.
+## Video Link
+![LOCAL NOTIFICATIONS (2)](https://github.com/Snehasis4321/flutter_local_notifications_tutorial/assets/96995340/84e99975-726f-4036-9b59-3ae702d59cdf)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Video Link](https://youtu.be/--PQXg_mx9I)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
