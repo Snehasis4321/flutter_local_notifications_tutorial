@@ -20,8 +20,8 @@ class _HomepageState extends State<Homepage> {
   listenToNotifications() {
     print("Listening to notification");
     LocalNotifications.onClickNotification.stream.listen((event) {
-      Navigator.push(context,
-          MaterialPageRoute(builder: (context) => AnotherPage(payload: event)));
+      print(event);
+      Navigator.pushNamed(context, '/another', arguments: event);
     });
   }
 
