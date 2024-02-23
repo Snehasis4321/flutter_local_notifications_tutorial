@@ -68,6 +68,7 @@ class LocalNotifications {
         NotificationDetails(android: androidNotificationDetails);
     await _flutterLocalNotificationsPlugin.periodicallyShow(
         1, title, body, RepeatInterval.everyMinute, notificationDetails,
+        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
         payload: payload);
   }
 
