@@ -29,6 +29,13 @@ class LocalNotifications {
             android: initializationSettingsAndroid,
             iOS: initializationSettingsDarwin,
             linux: initializationSettingsLinux);
+
+    // request notification permissions 
+    _flutterLocalNotificationsPlugin
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>()!
+        .requestNotificationsPermission();
+    
     _flutterLocalNotificationsPlugin.initialize(initializationSettings,
         onDidReceiveNotificationResponse: onNotificationTap,
         onDidReceiveBackgroundNotificationResponse: onNotificationTap);
