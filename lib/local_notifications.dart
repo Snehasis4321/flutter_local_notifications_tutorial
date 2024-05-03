@@ -33,8 +33,8 @@ class LocalNotifications {
     // request notification permissions 
     _flutterLocalNotificationsPlugin
         .resolvePlatformSpecificImplementation<
-            AndroidFlutterLocalNotificationsPlugin>()!
-        .requestNotificationsPermission();
+            AndroidFlutterLocalNotificationsPlugin>()!.requestPermission();
+  
     
     _flutterLocalNotificationsPlugin.initialize(initializationSettings,
         onDidReceiveNotificationResponse: onNotificationTap,
